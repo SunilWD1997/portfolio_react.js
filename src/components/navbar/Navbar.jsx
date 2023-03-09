@@ -14,14 +14,14 @@ const Navbar = () => {
   }
   return (
     <div className="header">
-      <div className="logo">
-        <NavLink to="/">Portfolio.</NavLink>
+      <div className="logo" >
+        <NavLink to="/" >Sunil Patra</NavLink>
       </div>
       <ul className={menu? "nav_menu" : "nav_menu active"}>
         <li> <NavLink to="/">Home</NavLink> </li>
         <li> <NavLink to="/about">About</NavLink> </li>
         <li> <NavLink to="/project">Project</NavLink> </li>
-        <li> <NavLink to="/contact">Contact Us</NavLink> </li>
+        <li> <NavLink to="/contact">Contact</NavLink> </li>
       </ul>
       <div className="hamburg" onClick={changeMenu}>
       {menu? <Menu/> : <Close/>   }   

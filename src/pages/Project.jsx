@@ -1,6 +1,6 @@
 import './project.css';
 import Navbar from '../components/navbar/Navbar';
-import Footer from '../components/footer/Footer';
+
 
 
 const Project = () => {
@@ -9,10 +9,10 @@ const Project = () => {
       <Navbar />
 
       <div className="content">
-        <h1>Projects</h1>
+        <h3>Projects</h3>
 
         <ol className='Project_list'>
-          <li> <span>1</span> Weather Forcasting(React.js)</li>
+          <li> <span>1</span> Ecommerce Website(React.js)</li>
           <li> <span>2</span> ToDo List(React.js)</li>
           <li> <span>3</span> Weather forcasting(React.js)</li>
           <li> <span>4</span> Temperature Converter(HTML, CSS & JS)</li>
@@ -26,7 +26,7 @@ const Project = () => {
 
       </div>
        
-       <Footer/>
+      
     </div>
   )
 }

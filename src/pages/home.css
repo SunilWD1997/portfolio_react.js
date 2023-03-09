@@ -1,5 +1,4 @@
 .main {
-    margin-top: 3rem;
     height: calc(100vh - 48px);
     width: 100%;
     display: flex;
@@ -24,9 +23,26 @@
     margin: 0 5px;
 
 }
-.main .social_media_links a:hover {
-    color: grey;
 
+.main .social_icon:hover {
+   background-color: rgb(38, 0, 255);
+
+}
+.main button {
+    background-color: rgba(216, 248, 74, 1);
+    border-radius: .3rem;
+       border: 2px solid grey;
+       padding: .3rem 1rem;
+       margin-top: .5rem;
+}
+.main button a{
+    color: black;
+font-weight: bold;
+font-size: .7rem;
+}
+.main button:hover{
+background-color: gold;
+transition: all .2s;
 }
 
 
